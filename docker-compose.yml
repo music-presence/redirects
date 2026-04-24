@@ -13,7 +13,7 @@ services:
       - caddy_data:/data
       - caddy_config:/confign
     networks:
-      - musicpresence_networkk
+      - musicpresence_network
     hostname: ${COMPOSE_PROJECT_NAME}_caddy
 
 volumes:
