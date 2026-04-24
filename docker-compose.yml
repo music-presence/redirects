@@ -1,11 +1,20 @@
+name: musicpresence-redirects
+
+networks:
+  musicpresence_network:
+    external: true
+
 services:
-  redirects:
-    image: caddy:2-alpine
+  caddy:
+    image: caddy:latest
     restart: unless-stopped
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data
-      - caddy_config:/config
+      - caddy_config:/confign
+    networks:
+      - musicpresence_networkk
+    hostname: ${COMPOSE_PROJECT_NAME}_caddy
 
 volumes:
   caddy_data:
