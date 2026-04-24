@@ -1,0 +1,5 @@
+:80 {
+	redir /discord-activity-sharing https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#check-your-discord-settings-first
+
+	respond "Redirect not found: {path}\nPlease report this!" 404
+}
