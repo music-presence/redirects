@@ -7,4 +7,4 @@ LOCAL="$(git rev-parse @)"
 REMOTE="$(git rev-parse @{u})"
 [[ "$LOCAL" == "$REMOTE" ]] && exit 0
 git pull --ff-only
-sudo make reload
+sudo "$(pwd)/reload.sh"
