@@ -2,6 +2,7 @@
 	redir /discord-download https://discord.com/download
 	redir /discord-activity-sharing https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#check-your-discord-settings-first
 	redir /upcoming-browser-support https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#web-versions-of-streaming-services-are-not-supported-yet
+	redir /media-player-plugins https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md#required-plugins-and-helper-programs
 
 	respond "Not found: {path}" 404
 }
