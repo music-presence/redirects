@@ -1,6 +1,7 @@
 :80 {
 	redir /documentation https://github.com/ungive/discord-music-presence/tree/master/documentation
 	redir /troubleshooting https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md
+	redir /create-new-issue https://github.com/ungive/discord-music-presence/issues/new/choose
 	redir /discord-download https://discord.com/download
 	redir /discord-activity-sharing https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#check-your-discord-settings-first
 	redir /upcoming-browser-support https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#web-versions-of-streaming-services-are-not-supported-yet
