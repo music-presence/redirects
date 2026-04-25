@@ -9,6 +9,7 @@
 	redir /media-player-plugins https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md#required-plugins-and-helper-programs
 	redir /supported-media-players https://nimigames68.github.io/Music-Presence-Players
 	redir /scrobbling-roadmap https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
+	redir /submit-media-player https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#if-your-media-player-is-still-not-detected
 
 	respond "Not found: {path}" 404
 }
