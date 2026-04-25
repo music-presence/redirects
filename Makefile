@@ -1,4 +1,4 @@
 .PHONY: reload
 
 reload:
-	sudo docker compose exec -w /etc/caddy caddy caddy reload
+	docker compose exec -w /etc/caddy caddy caddy reload
