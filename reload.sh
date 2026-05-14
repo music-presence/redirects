@@ -1,4 +1,4 @@
 #!/bin/bash
 set -Eeuo pipefail
-cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
-make reload
+# Do not delegate to commands in any other file here.
+docker compose exec -w /etc/caddy caddy caddy reload
