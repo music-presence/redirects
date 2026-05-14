@@ -3,6 +3,7 @@ vars {
 	permanent_discord_invite https://discord.com/invite/7rc8dWD4ug
 }
 
+# Base URL: https://go.musicpresence.app
 :80 {
 	# Short variants
 	redir /discord {vars.permanent_discord_invite}
@@ -23,3 +24,21 @@ vars {
 
 	respond "Not found: {path}" 404
 }
+
+# Legacy redirects:
+# - automatic-updates-docs.musicpresence.app
+# - changelog-md.musicpresence.app
+# - changelog.musicpresence.app
+# - contribute.musicpresence.app
+# - cover-images-proxy-docs.musicpresence.app
+# - discord-invite.musicpresence.app
+# - donate.musicpresence.app
+# - download.musicpresence.app
+# - get.musicpresence.app
+# - patreon.musicpresence.app
+# - privacy.musicpresence.app
+# - roadmap.musicpresence.app
+# - self-hosted-cover-image-proxy-docs.musicpresence.app
+# - supported-players.musicpresence.app
+# - translate.musicpresence.app
+# - troubleshooting.musicpresence.app
