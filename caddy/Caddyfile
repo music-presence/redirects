@@ -12,6 +12,7 @@
 	redir /roadmap https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
 	redir /submit-media-player https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#if-your-media-player-is-still-not-detected
 	redir /privacy-policy https://github.com/ungive/discord-music-presence/blob/v2.3.5/PRIVACY.md
+	redir /privacy https://github.com/ungive/discord-music-presence/blob/v2.3.5/PRIVACY.md
 
 	respond "Not found: {path}" 404
 }
