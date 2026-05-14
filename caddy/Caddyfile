@@ -1,9 +1,18 @@
+vars {
+	effective_privacy_policy https://github.com/ungive/discord-music-presence/blob/v2.3.5/PRIVACY.md
+	permanent_discord_invite https://discord.com/invite/7rc8dWD4ug
+}
+
 :80 {
+	# Short variants
+	redir /discord {vars.permanent_discord_invite}
+	redir /privacy {vars.effective_privacy_policy}
+
+	redir /discord-invite {vars.permanent_discord_invite}
+	redir /privacy-policy {vars.effective_privacy_policy}
 	redir /documentation https://github.com/ungive/discord-music-presence/tree/master/documentation
 	redir /troubleshooting https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md
 	redir /create-new-issue https://github.com/ungive/discord-music-presence/issues/new/choose
-	redir /discord-invite https://discord.com/invite/7rc8dWD4ug
-	redir /discord https://discord.com/invite/7rc8dWD4ug
 	redir /discord-download https://discord.com/download
 	redir /discord-activity-sharing https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#check-your-discord-settings-first
 	redir /upcoming-browser-support https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#web-versions-of-streaming-services-are-not-supported-yet
@@ -11,8 +20,6 @@
 	redir /supported-media-players https://nimigames68.github.io/Music-Presence-Players
 	redir /roadmap https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
 	redir /submit-media-player https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#if-your-media-player-is-still-not-detected
-	redir /privacy-policy https://github.com/ungive/discord-music-presence/blob/v2.3.5/PRIVACY.md
-	redir /privacy https://github.com/ungive/discord-music-presence/blob/v2.3.5/PRIVACY.md
 
 	respond "Not found: {path}" 404
 }
