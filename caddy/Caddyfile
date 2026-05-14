@@ -1,10 +1,10 @@
-vars {
-	effective_privacy_policy https://github.com/ungive/discord-music-presence/blob/v2.3.5/PRIVACY.md
-	permanent_discord_invite https://discord.com/invite/7rc8dWD4ug
-}
-
 # Base URL: https://go.musicpresence.app
 :80 {
+	vars {
+		effective_privacy_policy https://github.com/ungive/discord-music-presence/blob/v2.3.5/PRIVACY.md
+		permanent_discord_invite https://discord.com/invite/7rc8dWD4ug
+	}
+
 	# Short variants
 	redir /discord {vars.permanent_discord_invite}
 	redir /privacy {vars.effective_privacy_policy}
