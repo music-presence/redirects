@@ -13,7 +13,6 @@
 	redir /discord-invite {vars.permanent_discord_invite}
 	redir /privacy-policy {vars.effective_privacy_policy}
 	redir /scrobbling-license-terms https://docs.musicpresence.app/legal/scrobbling-license-terms/
-	redir /documentation https://github.com/ungive/discord-music-presence/tree/master/documentation
 	redir /troubleshooting https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md
 	redir /create-new-issue https://github.com/ungive/discord-music-presence/issues/new/choose
 	redir /discord-download https://discord.com/download
@@ -25,6 +24,9 @@
 	redir /submit-media-player https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#if-your-media-player-is-still-not-detected
 	redir /translate https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md
 	redir /spotify-developer-dashboard https://developer.spotify.com/dashboard
+
+	redir /documentation https://github.com/ungive/discord-music-presence/tree/master/documentation
+	redir /documentation/spotify-api https://docs.musicpresence.app/discord-presence/music-apis/#spotify-api
 
 	respond "Not found: {path}" 404
 }
