@@ -24,6 +24,7 @@
 	redir /roadmap https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
 	redir /submit-media-player https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#if-your-media-player-is-still-not-detected
 	redir /translate https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md
+	redir /spotify-developer-dashboard https://developer.spotify.com/dashboard
 
 	respond "Not found: {path}" 404
 }
