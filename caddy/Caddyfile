@@ -40,6 +40,11 @@
 	@version_privacy path_regexp version_privacy ^/version/([^/]+)/privacy-policy$
 	redir @version_privacy https://docs.musicpresence.app/legal/privacy-policy/
 
+	# License agreement redirect for each version of the app. Redirects to the same page for all versions for now.
+	# In the future, the following query parameter could be added: ?version={re.version_license.1}
+	@version_license path_regexp version_license ^/version/([^/]+)/license-agreement$
+	redir @version_license https://docs.musicpresence.app/legal/license-agreement/
+
 	respond "Not found: {path}" 404
 }
 
