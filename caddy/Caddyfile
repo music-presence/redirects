@@ -17,7 +17,7 @@
 	redir /spotify-developer-dashboard https://developer.spotify.com/dashboard
 	redir /browser-extension https://github.com/ungive/media-control-extension#readme
 
-	redir /donate https://musicpresence.app/donate
+	redir /donate https://musicpresence.app/donate?utm_source=go.musicpresence.app&utm_medium=redirect
 	redir /donate/github-sponsors https://github.com/sponsors/ungive
 	redir /donate/buy-me-a-coffee https://buymeacoffee.com/jonasvandenberg
 	redir /donate/ko-fi https://ko-fi.com/jonasvandenberg
