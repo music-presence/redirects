@@ -32,7 +32,7 @@
 	redir /docs/spotify-api-credentials https://docs.musicpresence.app/discord-presence/music-apis/#spotify-api
 
 	# Privacy policy redirect for each version of the app. Redirects to the same page for all versions for now.
-	@version_privacy path_regexp privacy ^/version/([^/]+)/privacy-policy$
+	@version_privacy path_regexp version_privacy ^/version/([^/]+)/privacy-policy$
 	redir @version_privacy https://docs.musicpresence.app/legal/privacy-policy/?version={re.version_privacy.1}
 
 	respond "Not found: {path}" 404
