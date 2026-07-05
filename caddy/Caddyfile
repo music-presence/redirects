@@ -1,17 +1,8 @@
 # Base URL: https://go.musicpresence.app
 :80 {
-	vars {
-		# TODO Change to https://docs.musicpresence.app/legal/privacy-policy/
-		effective_privacy_policy https://github.com/ungive/discord-music-presence/blob/v2.3.5/PRIVACY.md
-		permanent_discord_invite https://discord.com/invite/7rc8dWD4ug
-	}
-
-	# Short variants
-	redir /discord {vars.permanent_discord_invite}
-	redir /privacy {vars.effective_privacy_policy}
-
-	redir /discord-invite {vars.permanent_discord_invite}
-	redir /privacy-policy {vars.effective_privacy_policy}
+	redir /discord-invite https://discord.com/invite/7rc8dWD4ug
+	# TODO Change to https://docs.musicpresence.app/legal/privacy-policy/
+	redir /privacy-policy https://github.com/ungive/discord-music-presence/blob/v2.3.5/PRIVACY.md
 	redir /scrobbling-license-terms https://docs.musicpresence.app/legal/scrobbling-license-terms/
 	redir /troubleshooting https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md
 	redir /create-new-issue https://github.com/ungive/discord-music-presence/issues/new/choose
