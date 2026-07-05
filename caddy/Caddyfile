@@ -15,6 +15,7 @@
 	redir /translate https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md
 	redir /spotify-developer-dashboard https://developer.spotify.com/dashboard
 	redir /browser-extension https://github.com/ungive/media-control-extension#readme
+	redir /download https://github.com/ungive/discord-music-presence/releases/latest
 
 	redir /donate https://musicpresence.app/donate?utm_source=go.musicpresence.app&utm_medium=redirect
 	redir /donate/github-sponsors https://github.com/sponsors/ungive
