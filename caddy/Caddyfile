@@ -19,6 +19,7 @@
 	redir /contribute https://github.com/ungive/discord-music-presence/blob/master/documentation/contributing.md
 	redir /license-agreement https://docs.musicpresence.app/legal/license-agreement/
 	redir /changelog https://github.com/ungive/discord-music-presence/blob/master/CHANGELOG.md
+	redir /changelog.md https://raw.githubusercontent.com/ungive/discord-music-presence/master/CHANGELOG.md
 
 	redir /donate https://musicpresence.app/donate?utm_source=go.musicpresence.app&utm_medium=redirect
 	redir /donate/github-sponsors https://github.com/sponsors/ungive
