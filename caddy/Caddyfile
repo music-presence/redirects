@@ -8,7 +8,6 @@
 	redir /discord-download https://discord.com/download
 	redir /supported-media-players https://nimigames68.github.io/Music-Presence-Players
 	redir /roadmap https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
-	redir /translate https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md
 	redir /spotify-developer-dashboard https://developer.spotify.com/dashboard
 	redir /browser-extension https://github.com/ungive/media-control-extension#readme
 	redir /download https://github.com/ungive/discord-music-presence/releases/latest
@@ -34,6 +33,7 @@
 	redir /docs/discord-activity-sharing https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#check-your-discord-settings-first
 	redir /docs/media-player-plugins https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md#required-plugins-and-helper-programs
 	redir /docs/submit-media-player https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#if-your-media-player-is-still-not-detected
+	redir /docs/translation-guide https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md
 
 	# Privacy policy redirect for each version of the app. Redirects to the same page for all versions for now.
 	# In the future, the following query parameter could be added: ?version={re.version_privacy.1}
