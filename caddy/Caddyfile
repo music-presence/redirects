@@ -27,9 +27,9 @@
 
 	# FIXME Redirect to a dedicated roadmap page.
 	redir /roadmap https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
-	redir /roadmap/scrobbling https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
-	redir /roadmap/browser-support https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
-	redir /roadmap/listening-along https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
+	redir /roadmap/scrobbling https://github.com/ungive/discord-music-presence/issues/365
+	redir /roadmap/browser-support https://github.com/ungive/discord-music-presence/issues/5
+	redir /roadmap/listening-along https://github.com/ungive/discord-music-presence/issues/319
 
 	redir /documentation https://github.com/ungive/discord-music-presence/tree/master/documentation
 	redir /docs/spotify-api-credentials https://docs.musicpresence.app/discord-presence/music-apis/#spotify-api
