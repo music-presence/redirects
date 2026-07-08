@@ -6,7 +6,6 @@
 	redir /troubleshooting https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md
 	redir /create-new-issue https://github.com/ungive/discord-music-presence/issues/new/choose
 	redir /discord-download https://discord.com/download
-	redir /discord-activity-sharing https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#check-your-discord-settings-first
 	redir /media-player-plugins https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md#required-plugins-and-helper-programs
 	redir /supported-media-players https://nimigames68.github.io/Music-Presence-Players
 	redir /roadmap https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
@@ -34,6 +33,7 @@
 	redir /documentation https://github.com/ungive/discord-music-presence/tree/master/documentation
 	redir /docs/spotify-api-credentials https://docs.musicpresence.app/discord-presence/music-apis/#spotify-api
 	redir /docs/self-hosted-cover-image-proxy https://github.com/ungive/discord-music-presence/blob/master/documentation/self-hosted-cover-image-proxy.md
+	redir /docs/discord-activity-sharing https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#check-your-discord-settings-first
 
 	# Privacy policy redirect for each version of the app. Redirects to the same page for all versions for now.
 	# In the future, the following query parameter could be added: ?version={re.version_privacy.1}
