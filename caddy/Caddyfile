@@ -14,7 +14,6 @@
 
 	redir /legal https://docs.musicpresence.app/legal/
 	redir /privacy-policy https://docs.musicpresence.app/legal/privacy-policy/
-	redir /license-agreement https://docs.musicpresence.app/legal/license-agreement/
 
 	redir /donate https://musicpresence.app/donate?utm_source=go.musicpresence.app&utm_medium=redirect
 	redir /donate/github-sponsors https://github.com/sponsors/ungive
