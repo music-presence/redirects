@@ -9,7 +9,7 @@
 	redir /roadmap https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md
 	redir /spotify-developer-dashboard https://developer.spotify.com/dashboard
 	redir /browser-extension https://github.com/ungive/media-control-extension#readme
-	redir /download https://github.com/ungive/discord-music-presence/releases/latest
+	redir /download https://docs.musicpresence.app/setup/install/
 	redir /contribute https://github.com/ungive/discord-music-presence/blob/master/documentation/contributing.md
 	redir /license-agreement https://docs.musicpresence.app/legal/license-agreement/
 	redir /changelog https://github.com/ungive/discord-music-presence/blob/master/CHANGELOG.md
