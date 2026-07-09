@@ -1,7 +1,6 @@
 # Base URL: https://go.musicpresence.app
 :80 {
 	redir /discord-invite https://discord.com/invite/7rc8dWD4ug
-	redir /privacy-policy https://docs.musicpresence.app/legal/privacy-policy/
 	redir /scrobbling-license-terms https://docs.musicpresence.app/legal/scrobbling-license-terms/
 	redir /create-new-issue https://github.com/ungive/discord-music-presence/issues/new/choose
 	redir /discord-download https://discord.com/download
@@ -11,8 +10,11 @@
 	redir /browser-extension https://github.com/ungive/media-control-extension#readme
 	redir /download https://docs.musicpresence.app/setup/install/
 	redir /contribute https://github.com/ungive/discord-music-presence/blob/master/documentation/contributing.md
-	redir /license-agreement https://docs.musicpresence.app/legal/license-agreement/
 	redir /changelog https://github.com/ungive/discord-music-presence/blob/master/CHANGELOG.md
+
+	redir /legal https://docs.musicpresence.app/legal/
+	redir /privacy-policy https://docs.musicpresence.app/legal/privacy-policy/
+	redir /license-agreement https://docs.musicpresence.app/legal/license-agreement/
 
 	redir /donate https://musicpresence.app/donate?utm_source=go.musicpresence.app&utm_medium=redirect
 	redir /donate/github-sponsors https://github.com/sponsors/ungive
