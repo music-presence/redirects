@@ -11,9 +11,8 @@
 	redir /download https://docs.musicpresence.app/setup/install/
 	redir /contribute https://github.com/ungive/discord-music-presence/blob/master/documentation/contributing.md
 	redir /changelog https://github.com/ungive/discord-music-presence/blob/master/CHANGELOG.md
-
-	redir /legal https://docs.musicpresence.app/legal/
 	redir /privacy-policy https://docs.musicpresence.app/legal/privacy-policy/
+	redir /legal https://docs.musicpresence.app/legal/
 
 	redir /donate https://musicpresence.app/donate?utm_source=go.musicpresence.app&utm_medium=redirect
 	redir /donate/github-sponsors https://github.com/sponsors/ungive
