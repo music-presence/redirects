@@ -30,7 +30,7 @@
 	redir /docs/spotify-api-credentials https://docs.musicpresence.app/discord-presence/music-apis/#spotify-api
 	redir /docs/self-hosted-cover-image-proxy https://github.com/ungive/discord-music-presence/blob/master/documentation/self-hosted-cover-image-proxy.md
 	redir /docs/discord-activity-sharing https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#check-your-discord-settings-first
-	redir /docs/media-player-plugins https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md#required-plugins-and-helper-programs
+	redir /docs/media-player-plugins https://docs.musicpresence.app/setup/media-player/#media-player-configuration
 	redir /docs/submit-media-player https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md#if-your-media-player-is-still-not-detected
 	redir /docs/translation-guide https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md
 	redir /docs/troubleshooting https://github.com/ungive/discord-music-presence/blob/master/documentation/troubleshooting.md
